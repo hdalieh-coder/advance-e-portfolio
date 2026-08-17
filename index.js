@@ -1,6 +1,13 @@
-// template_167xtah
-// service_o36k3v7
-// 2oTArQkrBXAbE0A-d
+let contrastToggle = false
+function toggleContrast() {
+    contrastToggle = !contrastToggle
+    if (contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    else {
+        document.body.classList.remove("dark-theme")
+    }
+}
 
 function contact(event) {
     event.preventDefault()
